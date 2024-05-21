@@ -60,9 +60,9 @@ def text_to_speech(text, filename, lang='ko'):
 
 
 def main():
-    news_api_key = '96c06b13157d45c2b94eb7cdd7c20760'
-    openai_api_key = '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'
-    google_api_key = 'AIzaSyCFN1kdg2yWpbdEDRyfvNQRrsYORLMiyAI'
+    news_api_key = 'news_api_key'
+    openai_api_key = 'openai_api_key'
+    google_api_key = 'google_api_key'
     articles = get_news(news_api_key)
 
     if articles:
